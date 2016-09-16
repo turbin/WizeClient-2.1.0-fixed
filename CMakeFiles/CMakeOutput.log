@@ -1,0 +1,1909 @@
+The system is: Linux - 3.16.0-4-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec981301126/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec981301126.dir/build.make CMakeFiles/cmTryCompileExec981301126.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec981301126.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec981301126.dir/testCCompiler.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec981301126
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec981301126.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec981301126.dir/testCCompiler.c.o  -o cmTryCompileExec981301126 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1656524479/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1656524479.dir/build.make CMakeFiles/cmTryCompileExec1656524479.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1656524479.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1656524479.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1656524479
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1656524479.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1656524479.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1656524479 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-10) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1656524479' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cci2mW8u.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1656524479 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1656524479.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1656524479/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1656524479.dir/build.make CMakeFiles/cmTryCompileExec1656524479.dir/build]
+  ignore line: [make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1656524479.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1656524479.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1656524479]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1656524479.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1656524479.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1656524479 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1656524479' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cci2mW8u.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1656524479 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1656524479.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cci2mW8u.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1656524479] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec1656524479.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec353684800/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec353684800.dir/build.make CMakeFiles/cmTryCompileExec353684800.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec353684800.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec353684800.dir/testCXXCompiler.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec353684800
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec353684800.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec353684800.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec353684800 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec424545469/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec424545469.dir/build.make CMakeFiles/cmTryCompileExec424545469.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec424545469.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec424545469.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec424545469
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec424545469.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec424545469.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec424545469 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-10) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec424545469' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpJjBHH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec424545469 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec424545469.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec424545469/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec424545469.dir/build.make CMakeFiles/cmTryCompileExec424545469.dir/build]
+  ignore line: [make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec424545469.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec424545469.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec424545469]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec424545469.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec424545469.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec424545469 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec424545469' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpJjBHH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec424545469 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec424545469.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpJjBHH.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec424545469] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec424545469.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec567712509/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec567712509.dir/build.make CMakeFiles/cmTryCompileExec567712509.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec567712509.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec567712509.dir/CheckIncludeFiles.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec567712509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec567712509.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec567712509.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec567712509 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec788557670/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec788557670.dir/build.make CMakeFiles/cmTryCompileExec788557670.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec788557670.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec788557670.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec788557670
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec788557670.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec788557670.dir/CheckFunctionExists.c.o  -o cmTryCompileExec788557670 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler accepts the flag -pg passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1113695513/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1113695513.dir/build.make CMakeFiles/cmTryCompileExec1113695513.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1113695513.dir/DummyCXXFile.cxx.o
+/usr/bin/c++    -pg   -o CMakeFiles/cmTryCompileExec1113695513.dir/DummyCXXFile.cxx.o -c /usr/share/cmake-3.0/Modules/DummyCXXFile.cxx
+Linking CXX executable cmTryCompileExec1113695513
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1113695513.dir/link.txt --verbose=1
+/usr/bin/c++    -pg    CMakeFiles/cmTryCompileExec1113695513.dir/DummyCXXFile.cxx.o  -o cmTryCompileExec1113695513 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h;time.h exist passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2386816643/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2386816643.dir/build.make CMakeFiles/cmTryCompileExec2386816643.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2386816643.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2386816643.dir/CheckIncludeFiles.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2386816643
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2386816643.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2386816643.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2386816643 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2288985006/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2288985006.dir/build.make CMakeFiles/cmTryCompileExec2288985006.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2288985006.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2288985006.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2288985006
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2288985006.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec2288985006.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2288985006 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3567337012/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3567337012.dir/build.make CMakeFiles/cmTryCompileExec3567337012.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3567337012.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3567337012.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3567337012
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3567337012.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3567337012.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3567337012 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3328581931/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3328581931.dir/build.make CMakeFiles/cmTryCompileExec3328581931.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3328581931.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3328581931.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3328581931
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3328581931.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3328581931.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3328581931 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3819528777/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3819528777.dir/build.make CMakeFiles/cmTryCompileExec3819528777.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3819528777.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3819528777.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3819528777
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3819528777.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3819528777.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3819528777 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2328403831/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2328403831.dir/build.make CMakeFiles/cmTryCompileExec2328403831.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2328403831.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2328403831.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2328403831
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2328403831.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec2328403831.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2328403831 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file algorithm exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1135405646/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1135405646.dir/build.make CMakeFiles/cmTryCompileExec1135405646.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1135405646.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec1135405646.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1135405646
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1135405646.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec1135405646.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1135405646 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file functional exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2173346762/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2173346762.dir/build.make CMakeFiles/cmTryCompileExec2173346762.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2173346762.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2173346762.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2173346762
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2173346762.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec2173346762.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2173346762 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file map exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1218344556/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1218344556.dir/build.make CMakeFiles/cmTryCompileExec1218344556.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1218344556.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec1218344556.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1218344556
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1218344556.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec1218344556.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1218344556 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file vector exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1107890962/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1107890962.dir/build.make CMakeFiles/cmTryCompileExec1107890962.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1107890962.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec1107890962.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1107890962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1107890962.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec1107890962.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1107890962 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file list exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2121624910/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2121624910.dir/build.make CMakeFiles/cmTryCompileExec2121624910.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2121624910.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2121624910.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2121624910
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2121624910.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec2121624910.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2121624910 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file set exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3916502440/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3916502440.dir/build.make CMakeFiles/cmTryCompileExec3916502440.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3916502440.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3916502440.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3916502440
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3916502440.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3916502440.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3916502440 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2202068475/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2202068475.dir/build.make CMakeFiles/cmTryCompileExec2202068475.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2202068475.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2202068475.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2202068475
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2202068475.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec2202068475.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2202068475 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2785384376/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2785384376.dir/build.make CMakeFiles/cmTryCompileExec2785384376.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2785384376.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2785384376.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2785384376
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2785384376.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec2785384376.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2785384376 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec813257505/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec813257505.dir/build.make CMakeFiles/cmTryCompileExec813257505.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec813257505.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec813257505.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec813257505
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec813257505.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec813257505.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec813257505 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1200468198/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1200468198.dir/build.make CMakeFiles/cmTryCompileExec1200468198.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1200468198.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec1200468198.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1200468198
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1200468198.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec1200468198.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1200468198 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4247286371/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4247286371.dir/build.make CMakeFiles/cmTryCompileExec4247286371.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4247286371.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec4247286371.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec4247286371
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4247286371.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec4247286371.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec4247286371 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2382827776/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2382827776.dir/build.make CMakeFiles/cmTryCompileExec2382827776.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2382827776.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2382827776.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2382827776
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2382827776.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec2382827776.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2382827776 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3945977802/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3945977802.dir/build.make CMakeFiles/cmTryCompileExec3945977802.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3945977802.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3945977802.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3945977802
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3945977802.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3945977802.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3945977802 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2542253778/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2542253778.dir/build.make CMakeFiles/cmTryCompileExec2542253778.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2542253778.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2542253778.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2542253778
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2542253778.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec2542253778.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2542253778 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3521988838/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3521988838.dir/build.make CMakeFiles/cmTryCompileExec3521988838.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3521988838.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3521988838.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3521988838
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3521988838.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3521988838.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3521988838 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2400161507/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2400161507.dir/build.make CMakeFiles/cmTryCompileExec2400161507.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2400161507.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2400161507.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2400161507
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2400161507.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec2400161507.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2400161507 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec566095793/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec566095793.dir/build.make CMakeFiles/cmTryCompileExec566095793.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec566095793.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec566095793.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec566095793
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec566095793.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec566095793.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec566095793 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file wctype.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3534213032/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3534213032.dir/build.make CMakeFiles/cmTryCompileExec3534213032.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3534213032.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3534213032.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3534213032
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3534213032.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3534213032.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3534213032 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1407023484/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1407023484.dir/build.make CMakeFiles/cmTryCompileExec1407023484.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1407023484.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec1407023484.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1407023484
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1407023484.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec1407023484.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1407023484 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdexcept exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1896854166/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1896854166.dir/build.make CMakeFiles/cmTryCompileExec1896854166.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1896854166.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec1896854166.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1896854166
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1896854166.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec1896854166.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1896854166 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4249367445/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4249367445.dir/build.make CMakeFiles/cmTryCompileExec4249367445.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4249367445.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec4249367445.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec4249367445
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4249367445.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec4249367445.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec4249367445 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1755505752/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1755505752.dir/build.make CMakeFiles/cmTryCompileExec1755505752.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1755505752.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec1755505752.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1755505752
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1755505752.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec1755505752.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1755505752 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file hash_map exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1381412343/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1381412343.dir/build.make CMakeFiles/cmTryCompileExec1381412343.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1381412343.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec1381412343.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/4.9/backward/hash_map:60:0,
+                 from /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/4.9/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+Linking CXX executable cmTryCompileExec1381412343
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1381412343.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec1381412343.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1381412343 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file hash_set exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3380967890/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3380967890.dir/build.make CMakeFiles/cmTryCompileExec3380967890.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3380967890.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3380967890.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/4.9/backward/hash_set:60:0,
+                 from /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/4.9/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+Linking CXX executable cmTryCompileExec3380967890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3380967890.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3380967890.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3380967890 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3874418213/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3874418213.dir/build.make CMakeFiles/cmTryCompileExec3874418213.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3874418213.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3874418213.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/4.9/ext/hash_map:60:0,
+                 from /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/4.9/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+Linking CXX executable cmTryCompileExec3874418213
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3874418213.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3874418213.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3874418213 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3021492598/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3021492598.dir/build.make CMakeFiles/cmTryCompileExec3021492598.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3021492598.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3021492598.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3021492598
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3021492598.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3021492598.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3021492598 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4047132157/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4047132157.dir/build.make CMakeFiles/cmTryCompileExec4047132157.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4047132157.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec4047132157.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec4047132157
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4047132157.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec4047132157.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec4047132157 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/timeb.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3897855055/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3897855055.dir/build.make CMakeFiles/cmTryCompileExec3897855055.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3897855055.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3897855055.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3897855055
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3897855055.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3897855055.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3897855055 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec880577625/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec880577625.dir/build.make CMakeFiles/cmTryCompileExec880577625.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec880577625.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec880577625.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec880577625
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec880577625.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec880577625.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec880577625 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3921466072/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3921466072.dir/build.make CMakeFiles/cmTryCompileExec3921466072.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3921466072.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3921466072.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3921466072
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3921466072.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi     CMakeFiles/cmTryCompileExec3921466072.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3921466072 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3397241284/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3397241284.dir/build.make CMakeFiles/cmTryCompileExec3397241284.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3397241284.dir/_CL_HAVE_TYPE_INT8_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3397241284.dir/_CL_HAVE_TYPE_INT8_T.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_INT8_T.c
+Linking C executable cmTryCompileExec3397241284
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3397241284.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3397241284.dir/_CL_HAVE_TYPE_INT8_T.c.o  -o cmTryCompileExec3397241284 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2202531802/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2202531802.dir/build.make CMakeFiles/cmTryCompileExec2202531802.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2202531802.dir/_CL_HAVE_TYPE_UINT8_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2202531802.dir/_CL_HAVE_TYPE_UINT8_T.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_UINT8_T.c
+Linking C executable cmTryCompileExec2202531802
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2202531802.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2202531802.dir/_CL_HAVE_TYPE_UINT8_T.c.o  -o cmTryCompileExec2202531802 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3856594835/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3856594835.dir/build.make CMakeFiles/cmTryCompileExec3856594835.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3856594835.dir/_CL_HAVE_TYPE_INT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3856594835.dir/_CL_HAVE_TYPE_INT16_T.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_INT16_T.c
+Linking C executable cmTryCompileExec3856594835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3856594835.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3856594835.dir/_CL_HAVE_TYPE_INT16_T.c.o  -o cmTryCompileExec3856594835 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3992069985/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3992069985.dir/build.make CMakeFiles/cmTryCompileExec3992069985.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3992069985.dir/_CL_HAVE_TYPE_UINT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3992069985.dir/_CL_HAVE_TYPE_UINT16_T.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_UINT16_T.c
+Linking C executable cmTryCompileExec3992069985
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3992069985.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3992069985.dir/_CL_HAVE_TYPE_UINT16_T.c.o  -o cmTryCompileExec3992069985 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3210153793/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3210153793.dir/build.make CMakeFiles/cmTryCompileExec3210153793.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3210153793.dir/_CL_HAVE_TYPE_INT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3210153793.dir/_CL_HAVE_TYPE_INT32_T.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_INT32_T.c
+Linking C executable cmTryCompileExec3210153793
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3210153793.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3210153793.dir/_CL_HAVE_TYPE_INT32_T.c.o  -o cmTryCompileExec3210153793 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4289917352/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4289917352.dir/build.make CMakeFiles/cmTryCompileExec4289917352.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4289917352.dir/_CL_HAVE_TYPE_UINT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4289917352.dir/_CL_HAVE_TYPE_UINT32_T.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_UINT32_T.c
+Linking C executable cmTryCompileExec4289917352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4289917352.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4289917352.dir/_CL_HAVE_TYPE_UINT32_T.c.o  -o cmTryCompileExec4289917352 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1125113155/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1125113155.dir/build.make CMakeFiles/cmTryCompileExec1125113155.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1125113155.dir/_CL_HAVE_TYPE_INT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1125113155.dir/_CL_HAVE_TYPE_INT64_T.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_INT64_T.c
+Linking C executable cmTryCompileExec1125113155
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1125113155.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1125113155.dir/_CL_HAVE_TYPE_INT64_T.c.o  -o cmTryCompileExec1125113155 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec644882779/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec644882779.dir/build.make CMakeFiles/cmTryCompileExec644882779.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec644882779.dir/_CL_HAVE_TYPE_UINT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec644882779.dir/_CL_HAVE_TYPE_UINT64_T.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_UINT64_T.c
+Linking C executable cmTryCompileExec644882779
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec644882779.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec644882779.dir/_CL_HAVE_TYPE_UINT64_T.c.o  -o cmTryCompileExec644882779 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec434386165/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec434386165.dir/build.make CMakeFiles/cmTryCompileExec434386165.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec434386165.dir/_CL_HAVE_TYPE_SIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec434386165.dir/_CL_HAVE_TYPE_SIZE_T.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_SIZE_T.c
+Linking C executable cmTryCompileExec434386165
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec434386165.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec434386165.dir/_CL_HAVE_TYPE_SIZE_T.c.o  -o cmTryCompileExec434386165 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test _CL_HAVE_OPTION_TIMEB succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3734374882/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3734374882.dir/build.make CMakeFiles/cmTryCompileExec3734374882.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3734374882.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_OPTION_TIMEB   -o CMakeFiles/cmTryCompileExec3734374882.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3734374882
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3734374882.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_OPTION_TIMEB    CMakeFiles/cmTryCompileExec3734374882.dir/src.cxx.o  -o cmTryCompileExec3734374882 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+            	    int main(){
+            	        struct timeb x; 
+            	    }
+Performing C++ SOURCE FILE Test HAVE_SYMBOL_FLOAT_T succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2439731450/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2439731450.dir/build.make CMakeFiles/cmTryCompileExec2439731450.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2439731450.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -DHAVE_SYMBOL_FLOAT_T   -o CMakeFiles/cmTryCompileExec2439731450.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2439731450
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2439731450.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -DHAVE_SYMBOL_FLOAT_T    CMakeFiles/cmTryCompileExec2439731450.dir/src.cxx.o  -o cmTryCompileExec2439731450 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    	#include <math.h>
+    	int main(){ float_t x=0.0; }
+Determining if the function printf exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec717372101/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec717372101.dir/build.make CMakeFiles/cmTryCompileExec717372101.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec717372101.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=printf   -o CMakeFiles/cmTryCompileExec717372101.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘printf’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec717372101
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec717372101.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=printf    CMakeFiles/cmTryCompileExec717372101.dir/CheckFunctionExists.c.o  -o cmTryCompileExec717372101 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strftime exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3393775461/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3393775461.dir/build.make CMakeFiles/cmTryCompileExec3393775461.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3393775461.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strftime   -o CMakeFiles/cmTryCompileExec3393775461.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strftime’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3393775461
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3393775461.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strftime    CMakeFiles/cmTryCompileExec3393775461.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3393775461 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcscpy exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1146437161/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1146437161.dir/build.make CMakeFiles/cmTryCompileExec1146437161.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1146437161.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcscpy   -o CMakeFiles/cmTryCompileExec1146437161.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1146437161
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1146437161.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcscpy    CMakeFiles/cmTryCompileExec1146437161.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1146437161 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcsncpy exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1880193175/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1880193175.dir/build.make CMakeFiles/cmTryCompileExec1880193175.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1880193175.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsncpy   -o CMakeFiles/cmTryCompileExec1880193175.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1880193175
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1880193175.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsncpy    CMakeFiles/cmTryCompileExec1880193175.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1880193175 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcscat exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1982140423/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1982140423.dir/build.make CMakeFiles/cmTryCompileExec1982140423.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1982140423.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcscat   -o CMakeFiles/cmTryCompileExec1982140423.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1982140423
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1982140423.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcscat    CMakeFiles/cmTryCompileExec1982140423.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1982140423 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcschr exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec663379021/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec663379021.dir/build.make CMakeFiles/cmTryCompileExec663379021.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec663379021.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcschr   -o CMakeFiles/cmTryCompileExec663379021.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec663379021
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec663379021.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcschr    CMakeFiles/cmTryCompileExec663379021.dir/CheckFunctionExists.c.o  -o cmTryCompileExec663379021 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcsstr exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec898503213/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec898503213.dir/build.make CMakeFiles/cmTryCompileExec898503213.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec898503213.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsstr   -o CMakeFiles/cmTryCompileExec898503213.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec898503213
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec898503213.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsstr    CMakeFiles/cmTryCompileExec898503213.dir/CheckFunctionExists.c.o  -o cmTryCompileExec898503213 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcslen exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec988742944/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec988742944.dir/build.make CMakeFiles/cmTryCompileExec988742944.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec988742944.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcslen   -o CMakeFiles/cmTryCompileExec988742944.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec988742944
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec988742944.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcslen    CMakeFiles/cmTryCompileExec988742944.dir/CheckFunctionExists.c.o  -o cmTryCompileExec988742944 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcscmp exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2381305179/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2381305179.dir/build.make CMakeFiles/cmTryCompileExec2381305179.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2381305179.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcscmp   -o CMakeFiles/cmTryCompileExec2381305179.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2381305179
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2381305179.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcscmp    CMakeFiles/cmTryCompileExec2381305179.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2381305179 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcsncmp exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec779357680/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec779357680.dir/build.make CMakeFiles/cmTryCompileExec779357680.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec779357680.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsncmp   -o CMakeFiles/cmTryCompileExec779357680.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec779357680
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec779357680.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsncmp    CMakeFiles/cmTryCompileExec779357680.dir/CheckFunctionExists.c.o  -o cmTryCompileExec779357680 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcscspn exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1579770227/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1579770227.dir/build.make CMakeFiles/cmTryCompileExec1579770227.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1579770227.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcscspn   -o CMakeFiles/cmTryCompileExec1579770227.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1579770227
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1579770227.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcscspn    CMakeFiles/cmTryCompileExec1579770227.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1579770227 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcscasecmp exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec665770701/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec665770701.dir/build.make CMakeFiles/cmTryCompileExec665770701.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec665770701.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcscasecmp   -o CMakeFiles/cmTryCompileExec665770701.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec665770701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec665770701.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcscasecmp    CMakeFiles/cmTryCompileExec665770701.dir/CheckFunctionExists.c.o  -o cmTryCompileExec665770701 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcstoll exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1115344767/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1115344767.dir/build.make CMakeFiles/cmTryCompileExec1115344767.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1115344767.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcstoll   -o CMakeFiles/cmTryCompileExec1115344767.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1115344767
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1115344767.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcstoll    CMakeFiles/cmTryCompileExec1115344767.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1115344767 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wprintf exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3850001224/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3850001224.dir/build.make CMakeFiles/cmTryCompileExec3850001224.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3850001224.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wprintf   -o CMakeFiles/cmTryCompileExec3850001224.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3850001224
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3850001224.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wprintf    CMakeFiles/cmTryCompileExec3850001224.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3850001224 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcstod exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec521044082/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec521044082.dir/build.make CMakeFiles/cmTryCompileExec521044082.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec521044082.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcstod   -o CMakeFiles/cmTryCompileExec521044082.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec521044082
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec521044082.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcstod    CMakeFiles/cmTryCompileExec521044082.dir/CheckFunctionExists.c.o  -o cmTryCompileExec521044082 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcsdup exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1482883499/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1482883499.dir/build.make CMakeFiles/cmTryCompileExec1482883499.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1482883499.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsdup   -o CMakeFiles/cmTryCompileExec1482883499.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1482883499
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1482883499.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsdup    CMakeFiles/cmTryCompileExec1482883499.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1482883499 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec859448523/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec859448523.dir/build.make CMakeFiles/cmTryCompileExec859448523.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec859448523.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTryCompileExec859448523.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec859448523
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec859448523.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoll    CMakeFiles/cmTryCompileExec859448523.dir/CheckFunctionExists.c.o  -o cmTryCompileExec859448523 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2228488360/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2228488360.dir/build.make CMakeFiles/cmTryCompileExec2228488360.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2228488360.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTryCompileExec2228488360.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2228488360
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2228488360.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday    CMakeFiles/cmTryCompileExec2228488360.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2228488360 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1457223603/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1457223603.dir/build.make CMakeFiles/cmTryCompileExec1457223603.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1457223603.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTryCompileExec1457223603.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1457223603
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1457223603.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mmap    CMakeFiles/cmTryCompileExec1457223603.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1457223603 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fstat64 exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1243180713/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1243180713.dir/build.make CMakeFiles/cmTryCompileExec1243180713.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1243180713.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fstat64   -o CMakeFiles/cmTryCompileExec1243180713.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1243180713
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1243180713.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fstat64    CMakeFiles/cmTryCompileExec1243180713.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1243180713 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function stat64 exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4274766941/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4274766941.dir/build.make CMakeFiles/cmTryCompileExec4274766941.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4274766941.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stat64   -o CMakeFiles/cmTryCompileExec4274766941.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4274766941
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4274766941.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stat64    CMakeFiles/cmTryCompileExec4274766941.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4274766941 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lseek64 exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1558331569/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1558331569.dir/build.make CMakeFiles/cmTryCompileExec1558331569.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1558331569.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lseek64   -o CMakeFiles/cmTryCompileExec1558331569.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1558331569
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1558331569.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lseek64    CMakeFiles/cmTryCompileExec1558331569.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1558331569 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test _CL_HAVE_OPTION_STAT64 succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec974499079/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec974499079.dir/build.make CMakeFiles/cmTryCompileExec974499079.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec974499079.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_OPTION_STAT64   -o CMakeFiles/cmTryCompileExec974499079.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec974499079
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec974499079.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_OPTION_STAT64    CMakeFiles/cmTryCompileExec974499079.dir/src.cxx.o  -o cmTryCompileExec974499079 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+            	    int main(){
+            	        struct stat64 x; 
+            	    }
+Determining if the function realpath exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1769345525/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1769345525.dir/build.make CMakeFiles/cmTryCompileExec1769345525.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1769345525.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realpath   -o CMakeFiles/cmTryCompileExec1769345525.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1769345525
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1769345525.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realpath    CMakeFiles/cmTryCompileExec1769345525.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1769345525 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function rename exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2195902093/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2195902093.dir/build.make CMakeFiles/cmTryCompileExec2195902093.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2195902093.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=rename   -o CMakeFiles/cmTryCompileExec2195902093.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2195902093
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2195902093.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=rename    CMakeFiles/cmTryCompileExec2195902093.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2195902093 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function close exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1090210453/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1090210453.dir/build.make CMakeFiles/cmTryCompileExec1090210453.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1090210453.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=close   -o CMakeFiles/cmTryCompileExec1090210453.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1090210453
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1090210453.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=close    CMakeFiles/cmTryCompileExec1090210453.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1090210453 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function read exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2842536974/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2842536974.dir/build.make CMakeFiles/cmTryCompileExec2842536974.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2842536974.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=read   -o CMakeFiles/cmTryCompileExec2842536974.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2842536974
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2842536974.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=read    CMakeFiles/cmTryCompileExec2842536974.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2842536974 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function open exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2942638314/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2942638314.dir/build.make CMakeFiles/cmTryCompileExec2942638314.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2942638314.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=open   -o CMakeFiles/cmTryCompileExec2942638314.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2942638314
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2942638314.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=open    CMakeFiles/cmTryCompileExec2942638314.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2942638314 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function write exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2880899921/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2880899921.dir/build.make CMakeFiles/cmTryCompileExec2880899921.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2880899921.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=write   -o CMakeFiles/cmTryCompileExec2880899921.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2880899921
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2880899921.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=write    CMakeFiles/cmTryCompileExec2880899921.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2880899921 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function unlink exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1026338075/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1026338075.dir/build.make CMakeFiles/cmTryCompileExec1026338075.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1026338075.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=unlink   -o CMakeFiles/cmTryCompileExec1026338075.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1026338075
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1026338075.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=unlink    CMakeFiles/cmTryCompileExec1026338075.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1026338075 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftime exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3039773015/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3039773015.dir/build.make CMakeFiles/cmTryCompileExec3039773015.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3039773015.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftime   -o CMakeFiles/cmTryCompileExec3039773015.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3039773015
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3039773015.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftime    CMakeFiles/cmTryCompileExec3039773015.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3039773015 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1659506424/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1659506424.dir/build.make CMakeFiles/cmTryCompileExec1659506424.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1659506424.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=usleep   -o CMakeFiles/cmTryCompileExec1659506424.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1659506424
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1659506424.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=usleep    CMakeFiles/cmTryCompileExec1659506424.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1659506424 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1629116739/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1629116739.dir/build.make CMakeFiles/cmTryCompileExec1629116739.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1629116739.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTryCompileExec1629116739.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘snprintf’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1629116739
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1629116739.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf    CMakeFiles/cmTryCompileExec1629116739.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1629116739 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the S_IREAD exist passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec942334174/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec942334174.dir/build.make CMakeFiles/cmTryCompileExec942334174.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec942334174.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec942334174.dir/CheckSymbolExists.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec942334174
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec942334174.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec942334174.dir/CheckSymbolExists.c.o  -o cmTryCompileExec942334174 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef S_IREAD
+  return ((int*)(&S_IREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the S_IWRITE exist passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3532374321/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3532374321.dir/build.make CMakeFiles/cmTryCompileExec3532374321.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3532374321.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3532374321.dir/CheckSymbolExists.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3532374321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3532374321.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3532374321.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3532374321 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef S_IWRITE
+  return ((int*)(&S_IWRITE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of wchar_t passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3734034509/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3734034509.dir/build.make CMakeFiles/cmTryCompileExec3734034509.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3734034509.dir/_CL_HAVE_TYPE_WCHAR_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3734034509.dir/_CL_HAVE_TYPE_WCHAR_T.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_WCHAR_T.c
+Linking C executable cmTryCompileExec3734034509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3734034509.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3734034509.dir/_CL_HAVE_TYPE_WCHAR_T.c.o  -o cmTryCompileExec3734034509 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test _CL_HAVE_PTHREAD_MUTEX_RECURSIVE succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1901903850/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1901903850.dir/build.make CMakeFiles/cmTryCompileExec1901903850.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1901903850.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_PTHREAD_MUTEX_RECURSIVE -lpthread   -o CMakeFiles/cmTryCompileExec1901903850.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1901903850
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1901903850.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_PTHREAD_MUTEX_RECURSIVE -lpthread    CMakeFiles/cmTryCompileExec1901903850.dir/src.cxx.o  -o cmTryCompileExec1901903850 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+        #include <sys/types.h>
+        #include <pthread.h>
+        #include <stdlib.h>
+        
+        int main() {
+            pthread_mutexattr_t attr;
+            pthread_mutex_t m;
+        
+            exit (pthread_mutexattr_init(&attr) 
+                  || pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE)
+                  || pthread_mutex_init(&m, &attr));
+        }
+    
+Performing C++ SOURCE FILE Test _CL_HAVE_GCC_ATOMIC_FUNCTIONS succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3795492468/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3795492468.dir/build.make CMakeFiles/cmTryCompileExec3795492468.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3795492468.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_GCC_ATOMIC_FUNCTIONS   -o CMakeFiles/cmTryCompileExec3795492468.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3795492468
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3795492468.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_GCC_ATOMIC_FUNCTIONS    CMakeFiles/cmTryCompileExec3795492468.dir/src.cxx.o  -o cmTryCompileExec3795492468 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <cstdlib>
+int main()
+{
+   unsigned value = 0;
+   void* ptr = &value;
+   __sync_add_and_fetch(&value, 1);
+   __sync_synchronize();
+   __sync_sub_and_fetch(&value, 1);
+   if (!__sync_bool_compare_and_swap(&value, 0, 1))
+      return EXIT_FAILURE;
+   
+   if (!__sync_bool_compare_and_swap(&ptr, ptr, ptr))
+      return EXIT_FAILURE;
+
+   return EXIT_SUCCESS;
+}
+
+Performing C++ SOURCE FILE Test _CL_HAVE_GCCVISIBILITYPATCH succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1350656472/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1350656472.dir/build.make CMakeFiles/cmTryCompileExec1350656472.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1350656472.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_GCCVISIBILITYPATCH   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec1350656472.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1350656472
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1350656472.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_GCCVISIBILITYPATCH    CMakeFiles/cmTryCompileExec1350656472.dir/src.cxx.o  -o cmTryCompileExec1350656472 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _CL_HAVE_TRY_BLOCKS succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2103055221/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2103055221.dir/build.make CMakeFiles/cmTryCompileExec2103055221.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2103055221.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -D_CL_HAVE_TRY_BLOCKS   -o CMakeFiles/cmTryCompileExec2103055221.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2103055221
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2103055221.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -D_CL_HAVE_TRY_BLOCKS    CMakeFiles/cmTryCompileExec2103055221.dir/src.cxx.o  -o cmTryCompileExec2103055221 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+    	void foo() { try{ return; } catch( ... ){} }
+    	int main(){ foo(); return 0; }
+Performing C++ SOURCE FILE Test _CL_HAVE_STD__TR1_HASHMAP succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1382354284/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1382354284.dir/build.make CMakeFiles/cmTryCompileExec1382354284.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1382354284.dir/src.cxx.o
+/usr/bin/c++   -D_CL_HAVE_TR1_UNORDERED_MAP=1 -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -D_CL_HAVE_STD__TR1_HASHMAP   -o CMakeFiles/cmTryCompileExec1382354284.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1382354284
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1382354284.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -D_CL_HAVE_STD__TR1_HASHMAP    CMakeFiles/cmTryCompileExec1382354284.dir/src.cxx.o  -o cmTryCompileExec1382354284 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#if defined(_CL_HAVE_HASH_MAP)
+	#include <hash_map>
+#elif defined(_CL_HAVE_EXT_HASH_MAP)
+	#include <ext/hash_map>
+#elif defined(_CL_HAVE_TR1_UNORDERED_MAP)
+	#include <tr1/unordered_map>
+#endif
+int main() {  
+    std::tr1::unordered_map<int,char> a; 
+    return 0; 
+}
+        
+Performing C++ SOURCE FILE Test _CL_HAVE_NAMESPACES succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1053939743/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1053939743.dir/build.make CMakeFiles/cmTryCompileExec1053939743.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1053939743.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -D_CL_HAVE_NAMESPACES   -o CMakeFiles/cmTryCompileExec1053939743.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1053939743
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1053939743.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -D_CL_HAVE_NAMESPACES    CMakeFiles/cmTryCompileExec1053939743.dir/src.cxx.o  -o cmTryCompileExec1053939743 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+    	namespace Outer { namespace Inner { int i = 0; }}
+    	int main(){ using namespace Outer::Inner; return i; }
+Performing C++ SOURCE FILE Test _CL_HAVE_NO_SNPRINTF_BUG succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3690654946/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3690654946.dir/build.make CMakeFiles/cmTryCompileExec3690654946.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3690654946.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -D_CL_HAVE_NO_SNPRINTF_BUG   -o CMakeFiles/cmTryCompileExec3690654946.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3690654946
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3690654946.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -D_CL_HAVE_NO_SNPRINTF_BUG    CMakeFiles/cmTryCompileExec3690654946.dir/src.cxx.o  -o cmTryCompileExec3690654946 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+    	#include <stdio.h>
+    	int main(){
+    		char ovbuf[7];
+    		int i;
+    		for (i=0; i<7; i++) ovbuf[i]='x';
+    		snprintf(ovbuf, 4,"foo%s", "bar");
+    		if (ovbuf[5]!='x') return 1;
+    		snprintf(ovbuf, 4,"foo%d", 666);
+    		if (ovbuf[5]!='x') return 1;
+    		return 0;
+    	}
+Performing C++ SOURCE FILE Test _CL_ILONGLONG_LL succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec489548084/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec489548084.dir/build.make CMakeFiles/cmTryCompileExec489548084.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec489548084.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -D_CL_ILONGLONG_LL   -o CMakeFiles/cmTryCompileExec489548084.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec489548084
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec489548084.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -D_CL_ILONGLONG_LL    CMakeFiles/cmTryCompileExec489548084.dir/src.cxx.o  -o cmTryCompileExec489548084 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(){ int x = (int)(1234LL); }
+Performing C++ SOURCE FILE Test LUCENE_STATIC_CONSTANT_SYNTAX succeded with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4262175425/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4262175425.dir/build.make CMakeFiles/cmTryCompileExec4262175425.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4262175425.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -DLUCENE_STATIC_CONSTANT_SYNTAX   -o CMakeFiles/cmTryCompileExec4262175425.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4262175425
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4262175425.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden -DLUCENE_STATIC_CONSTANT_SYNTAX    CMakeFiles/cmTryCompileExec4262175425.dir/src.cxx.o  -o cmTryCompileExec4262175425 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+class x{public: static const int SCI=55; }; int main(){ x a; if ( a.SCI!=55 ) throw "err"; return 0; }
+Determining if the CXX compiler understands ansi for scopes passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3743926542/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3743926542.dir/build.make CMakeFiles/cmTryCompileExec3743926542.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3743926542.dir/TestForAnsiForScope.cxx.o
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden    -o CMakeFiles/cmTryCompileExec3743926542.dir/TestForAnsiForScope.cxx.o -c /usr/share/cmake-3.0/Modules/TestForAnsiForScope.cxx
+Linking CXX executable cmTryCompileExec3743926542
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3743926542.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -fvisibility=hidden -fvisibility-inlines-hidden     CMakeFiles/cmTryCompileExec3743926542.dir/TestForAnsiForScope.cxx.o  -o cmTryCompileExec3743926542 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler accepts the flag -fprofile-arcs -ftest-coverage passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2335059885/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2335059885.dir/build.make CMakeFiles/cmTryCompileExec2335059885.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2335059885.dir/DummyCXXFile.cxx.o
+/usr/bin/c++    -fPIC -ansi -fprofile-arcs -ftest-coverage   -o CMakeFiles/cmTryCompileExec2335059885.dir/DummyCXXFile.cxx.o -c /usr/share/cmake-3.0/Modules/DummyCXXFile.cxx
+Linking CXX executable cmTryCompileExec2335059885
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2335059885.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -ansi -fprofile-arcs -ftest-coverage    CMakeFiles/cmTryCompileExec2335059885.dir/DummyCXXFile.cxx.o  -o cmTryCompileExec2335059885 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2253349309/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2253349309.dir/build.make CMakeFiles/cmTryCompileExec2253349309.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2253349309.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2253349309.dir/CheckSymbolExists.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2253349309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2253349309.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2253349309.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2253349309 -rdynamic 
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,1 @@
+/usr/bin/c++    -fPIC -ansi -O3 -DNDEBUG    CMakeFiles/cl_demo.dir/IndexFiles.o CMakeFiles/cl_demo.dir/Main.o CMakeFiles/cl_demo.dir/SearchFiles.o CMakeFiles/cl_demo.dir/Statistics.o  -o ../../../../bin/cl_demo -rdynamic -lclucene-core -lclucene-shared -Wl,-rpath,"\$ORIGIN:\$ORIGIN/..:\$ORIGIN/../lib/wiznote/plugins" 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libaggregation.so -o ../wiznote/plugins/libaggregation.so CMakeFiles/aggregation.dir/aggregate.cpp.o CMakeFiles/aggregation.dir/aggregation_automoc.cpp.o -lQtWebKit -lQtXmlPatterns -lQtGui -lQtXml -lQtNetwork -lQtCore -Wl,-rpath,"\$ORIGIN:\$ORIGIN/..:\$ORIGIN/../lib/wiznote/plugins" 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -fPIC -ansi -O3 -DNDEBUG    -lpthread CMakeFiles/cl_test-ascii.dir/__/core/CLucene/CLMonolithic.o CMakeFiles/cl_test-ascii.dir/CLMonolithic_Test.o  -o ../../../../bin/cl_test-ascii -rdynamic -lz -Wl,-rpath,"\$ORIGIN:\$ORIGIN/..:\$ORIGIN/../lib/wiznote/plugins" 

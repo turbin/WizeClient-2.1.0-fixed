@@ -1,0 +1,1 @@
+/usr/bin/c++    -fPIC -ansi -O3 -DNDEBUG    -lpthread -fprofile-arcs -ftest-coverage CMakeFiles/cl_test-gcov.dir/__/core/CLucene/CLMonolithic.o CMakeFiles/cl_test-gcov.dir/CLMonolithic_Test.o  -o ../../../../bin/cl_test-gcov -rdynamic -lz -Wl,-rpath,"\$ORIGIN:\$ORIGIN/..:\$ORIGIN/../lib/wiznote/plugins" 

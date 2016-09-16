@@ -1,0 +1,1604 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1035308553/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1035308553.dir/build.make CMakeFiles/cmTryCompileExec1035308553.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1035308553.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1035308553.dir/CheckSymbolExists.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1035308553
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1035308553.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1035308553.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1035308553 -rdynamic 
+CMakeFiles/cmTryCompileExec1035308553.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec1035308553.dir/build.make:88: recipe for target 'cmTryCompileExec1035308553' failed
+make[1]: *** [cmTryCompileExec1035308553] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1035308553/fast' failed
+make: *** [cmTryCompileExec1035308553/fast] Error 2
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3924425372/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3924425372.dir/build.make CMakeFiles/cmTryCompileExec3924425372.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3924425372.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3924425372.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3924425372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3924425372.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3924425372.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3924425372 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3924425372.dir/build.make:88: recipe for target 'cmTryCompileExec3924425372' failed
+make[1]: *** [cmTryCompileExec3924425372] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3924425372/fast' failed
+make: *** [cmTryCompileExec3924425372/fast] Error 2
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2540847350/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2540847350.dir/build.make CMakeFiles/cmTryCompileExec2540847350.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2540847350.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2540847350.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:16: fatal error: io.h: No such file or directory
+ #include <io.h>
+                ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2540847350.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2540847350.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2540847350.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2540847350/fast' failed
+make: *** [cmTryCompileExec2540847350/fast] Error 2
+
+
+Determining if the include file direct.h exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3476116656/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3476116656.dir/build.make CMakeFiles/cmTryCompileExec3476116656.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3476116656.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3476116656.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:20: fatal error: direct.h: No such file or directory
+ #include <direct.h>
+                    ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3476116656.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3476116656.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3476116656.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3476116656/fast' failed
+make: *** [cmTryCompileExec3476116656/fast] Error 2
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1886726445/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1886726445.dir/build.make CMakeFiles/cmTryCompileExec1886726445.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1886726445.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec1886726445.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:22: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+                      ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec1886726445.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1886726445.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1886726445.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1886726445/fast' failed
+make: *** [cmTryCompileExec1886726445/fast] Error 2
+
+
+Determining if the include file stat.h exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2269884478/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2269884478.dir/build.make CMakeFiles/cmTryCompileExec2269884478.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2269884478.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2269884478.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:18: fatal error: stat.h: No such file or directory
+ #include <stat.h>
+                  ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2269884478.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2269884478.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2269884478.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2269884478/fast' failed
+make: *** [cmTryCompileExec2269884478/fast] Error 2
+
+
+Determining if the include file windef.h exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2955031997/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2955031997.dir/build.make CMakeFiles/cmTryCompileExec2955031997.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2955031997.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2955031997.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:20: fatal error: windef.h: No such file or directory
+ #include <windef.h>
+                    ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2955031997.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2955031997.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2955031997.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2955031997/fast' failed
+make: *** [cmTryCompileExec2955031997/fast] Error 2
+
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2080623384/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2080623384.dir/build.make CMakeFiles/cmTryCompileExec2080623384.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2080623384.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2080623384.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:21: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+                     ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2080623384.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2080623384.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2080623384.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2080623384/fast' failed
+make: *** [cmTryCompileExec2080623384/fast] Error 2
+
+
+Determining if the include file tchar.h exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1106286296/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1106286296.dir/build.make CMakeFiles/cmTryCompileExec1106286296.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1106286296.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec1106286296.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:19: fatal error: tchar.h: No such file or directory
+ #include <tchar.h>
+                   ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec1106286296.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1106286296.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1106286296.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1106286296/fast' failed
+make: *** [cmTryCompileExec1106286296/fast] Error 2
+
+
+Determining if the include file winerror.h exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec437291340/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec437291340.dir/build.make CMakeFiles/cmTryCompileExec437291340.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec437291340.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec437291340.dir/CheckIncludeFile.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:22: fatal error: winerror.h: No such file or directory
+ #include <winerror.h>
+                      ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec437291340.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec437291340.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec437291340.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec437291340/fast' failed
+make: *** [cmTryCompileExec437291340/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test _CL_HAVE_OPTION__TIMEB failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1652525639/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1652525639.dir/build.make CMakeFiles/cmTryCompileExec1652525639.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1652525639.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_OPTION__TIMEB   -o CMakeFiles/cmTryCompileExec1652525639.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx:5:36: error: aggregate ‘main()::_timeb x’ has incomplete type and cannot be defined
+                      struct _timeb x; 
+                                    ^
+CMakeFiles/cmTryCompileExec1652525639.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1652525639.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1652525639.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1652525639/fast' failed
+make: *** [cmTryCompileExec1652525639/fast] Error 2
+
+Source file was:
+
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+            	    int main(){
+            	        struct _timeb x; 
+            	    }
+Determining size of DWORD failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1216348504/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1216348504.dir/build.make CMakeFiles/cmTryCompileExec1216348504.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1216348504.dir/_CL_HAVE_TYPE_DWORD.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1216348504.dir/_CL_HAVE_TYPE_DWORD.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_DWORD.c
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_DWORD.c:17:22: error: ‘DWORD’ undeclared here (not in a function)
+ #define SIZE (sizeof(DWORD))
+                      ^
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_DWORD.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec1216348504.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1216348504.dir/_CL_HAVE_TYPE_DWORD.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1216348504.dir/_CL_HAVE_TYPE_DWORD.c.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1216348504/fast' failed
+make: *** [cmTryCompileExec1216348504/fast] Error 2
+
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_DWORD.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(DWORD))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function wcsupr exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec245932592/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec245932592.dir/build.make CMakeFiles/cmTryCompileExec245932592.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec245932592.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsupr   -o CMakeFiles/cmTryCompileExec245932592.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec245932592
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec245932592.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsupr    CMakeFiles/cmTryCompileExec245932592.dir/CheckFunctionExists.c.o  -o cmTryCompileExec245932592 -rdynamic 
+CMakeFiles/cmTryCompileExec245932592.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `wcsupr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec245932592.dir/build.make:88: recipe for target 'cmTryCompileExec245932592' failed
+make[1]: *** [cmTryCompileExec245932592] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec245932592/fast' failed
+make: *** [cmTryCompileExec245932592/fast] Error 2
+
+
+Determining if the function wcsicmp exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2230741694/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2230741694.dir/build.make CMakeFiles/cmTryCompileExec2230741694.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2230741694.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsicmp   -o CMakeFiles/cmTryCompileExec2230741694.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2230741694
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2230741694.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcsicmp    CMakeFiles/cmTryCompileExec2230741694.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2230741694 -rdynamic 
+CMakeFiles/cmTryCompileExec2230741694.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `wcsicmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2230741694.dir/build.make:88: recipe for target 'cmTryCompileExec2230741694' failed
+make[1]: *** [cmTryCompileExec2230741694] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2230741694/fast' failed
+make: *** [cmTryCompileExec2230741694/fast] Error 2
+
+
+Determining if the function lltow exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2957418354/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2957418354.dir/build.make CMakeFiles/cmTryCompileExec2957418354.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2957418354.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lltow   -o CMakeFiles/cmTryCompileExec2957418354.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2957418354
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2957418354.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lltow    CMakeFiles/cmTryCompileExec2957418354.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2957418354 -rdynamic 
+CMakeFiles/cmTryCompileExec2957418354.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `lltow'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2957418354.dir/build.make:88: recipe for target 'cmTryCompileExec2957418354' failed
+make[1]: *** [cmTryCompileExec2957418354] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2957418354/fast' failed
+make: *** [cmTryCompileExec2957418354/fast] Error 2
+
+
+Determining if the function strupr exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec21610802/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec21610802.dir/build.make CMakeFiles/cmTryCompileExec21610802.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec21610802.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strupr   -o CMakeFiles/cmTryCompileExec21610802.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec21610802
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec21610802.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strupr    CMakeFiles/cmTryCompileExec21610802.dir/CheckFunctionExists.c.o  -o cmTryCompileExec21610802 -rdynamic 
+CMakeFiles/cmTryCompileExec21610802.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `strupr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec21610802.dir/build.make:88: recipe for target 'cmTryCompileExec21610802' failed
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec21610802] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec21610802/fast' failed
+make: *** [cmTryCompileExec21610802/fast] Error 2
+
+
+Determining if the function strlwr exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3473235922/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3473235922.dir/build.make CMakeFiles/cmTryCompileExec3473235922.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3473235922.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlwr   -o CMakeFiles/cmTryCompileExec3473235922.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3473235922
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3473235922.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlwr    CMakeFiles/cmTryCompileExec3473235922.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3473235922 -rdynamic 
+CMakeFiles/cmTryCompileExec3473235922.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `strlwr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3473235922.dir/build.make:88: recipe for target 'cmTryCompileExec3473235922' failed
+make[1]: *** [cmTryCompileExec3473235922] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3473235922/fast' failed
+make: *** [cmTryCompileExec3473235922/fast] Error 2
+
+
+Determining if the function lltoa exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2118419753/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2118419753.dir/build.make CMakeFiles/cmTryCompileExec2118419753.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2118419753.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lltoa   -o CMakeFiles/cmTryCompileExec2118419753.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2118419753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2118419753.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lltoa    CMakeFiles/cmTryCompileExec2118419753.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2118419753 -rdynamic 
+CMakeFiles/cmTryCompileExec2118419753.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `lltoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2118419753.dir/build.make:88: recipe for target 'cmTryCompileExec2118419753' failed
+make[1]: *** [cmTryCompileExec2118419753] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2118419753/fast' failed
+make: *** [cmTryCompileExec2118419753/fast] Error 2
+
+
+Determining if the function _vsnwprintf exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec951674708/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec951674708.dir/build.make CMakeFiles/cmTryCompileExec951674708.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec951674708.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_vsnwprintf   -o CMakeFiles/cmTryCompileExec951674708.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec951674708
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec951674708.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_vsnwprintf    CMakeFiles/cmTryCompileExec951674708.dir/CheckFunctionExists.c.o  -o cmTryCompileExec951674708 -rdynamic 
+CMakeFiles/cmTryCompileExec951674708.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_vsnwprintf'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec951674708.dir/build.make:88: recipe for target 'cmTryCompileExec951674708' failed
+make[1]: *** [cmTryCompileExec951674708] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec951674708/fast' failed
+make: *** [cmTryCompileExec951674708/fast] Error 2
+
+
+Determining if the stdcall function MapViewOfFile(0,0,0,0,0) exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3631775742/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3631775742.dir/build.make CMakeFiles/cmTryCompileExec3631775742.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3631775742.dir/CheckStdCallFunctionExists.cpp.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3631775742.dir/CheckStdCallFunctionExists.cpp.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp: In function ‘int main(int, char**)’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp:12:26: error: ‘MapViewOfFile’ was not declared in this scope
+   MapViewOfFile(0,0,0,0,0);
+                          ^
+CMakeFiles/cmTryCompileExec3631775742.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3631775742.dir/CheckStdCallFunctionExists.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3631775742.dir/CheckStdCallFunctionExists.cpp.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3631775742/fast' failed
+make: *** [cmTryCompileExec3631775742/fast] Error 2
+
+CheckStdCallFunctionExists.cpp:
+#include "unistd.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  MapViewOfFile(0,0,0,0,0);
+  return 0;
+}
+
+
+Determining if the function fstati64 exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2712574084/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2712574084.dir/build.make CMakeFiles/cmTryCompileExec2712574084.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2712574084.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fstati64   -o CMakeFiles/cmTryCompileExec2712574084.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2712574084
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2712574084.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fstati64    CMakeFiles/cmTryCompileExec2712574084.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2712574084 -rdynamic 
+CMakeFiles/cmTryCompileExec2712574084.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fstati64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2712574084.dir/build.make:88: recipe for target 'cmTryCompileExec2712574084' failed
+make[1]: *** [cmTryCompileExec2712574084] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2712574084/fast' failed
+make: *** [cmTryCompileExec2712574084/fast] Error 2
+
+
+Determining if the function _fstati64 exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3284093025/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3284093025.dir/build.make CMakeFiles/cmTryCompileExec3284093025.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3284093025.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fstati64   -o CMakeFiles/cmTryCompileExec3284093025.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3284093025
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3284093025.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_fstati64    CMakeFiles/cmTryCompileExec3284093025.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3284093025 -rdynamic 
+CMakeFiles/cmTryCompileExec3284093025.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_fstati64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3284093025.dir/build.make:88: recipe for target 'cmTryCompileExec3284093025' failed
+make[1]: *** [cmTryCompileExec3284093025] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3284093025/fast' failed
+make: *** [cmTryCompileExec3284093025/fast] Error 2
+
+
+Determining if the function stati64 exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec664296918/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec664296918.dir/build.make CMakeFiles/cmTryCompileExec664296918.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec664296918.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stati64   -o CMakeFiles/cmTryCompileExec664296918.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec664296918
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec664296918.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stati64    CMakeFiles/cmTryCompileExec664296918.dir/CheckFunctionExists.c.o  -o cmTryCompileExec664296918 -rdynamic 
+CMakeFiles/cmTryCompileExec664296918.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `stati64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec664296918.dir/build.make:88: recipe for target 'cmTryCompileExec664296918' failed
+make[1]: *** [cmTryCompileExec664296918] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec664296918/fast' failed
+make: *** [cmTryCompileExec664296918/fast] Error 2
+
+
+Determining if the function _stati64 exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3143111078/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3143111078.dir/build.make CMakeFiles/cmTryCompileExec3143111078.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3143111078.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_stati64   -o CMakeFiles/cmTryCompileExec3143111078.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3143111078
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3143111078.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_stati64    CMakeFiles/cmTryCompileExec3143111078.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3143111078 -rdynamic 
+CMakeFiles/cmTryCompileExec3143111078.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_stati64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3143111078.dir/build.make:88: recipe for target 'cmTryCompileExec3143111078' failed
+make[1]: *** [cmTryCompileExec3143111078] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3143111078/fast' failed
+make: *** [cmTryCompileExec3143111078/fast] Error 2
+
+
+Determining if the function filelengthi64 exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3331965127/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3331965127.dir/build.make CMakeFiles/cmTryCompileExec3331965127.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3331965127.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=filelengthi64   -o CMakeFiles/cmTryCompileExec3331965127.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3331965127
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3331965127.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=filelengthi64    CMakeFiles/cmTryCompileExec3331965127.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3331965127 -rdynamic 
+CMakeFiles/cmTryCompileExec3331965127.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `filelengthi64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3331965127.dir/build.make:88: recipe for target 'cmTryCompileExec3331965127' failed
+make[1]: *** [cmTryCompileExec3331965127] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3331965127/fast' failed
+make: *** [cmTryCompileExec3331965127/fast] Error 2
+
+
+Determining if the function _filelengthi64 exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4216024173/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4216024173.dir/build.make CMakeFiles/cmTryCompileExec4216024173.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4216024173.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_filelengthi64   -o CMakeFiles/cmTryCompileExec4216024173.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4216024173
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4216024173.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_filelengthi64    CMakeFiles/cmTryCompileExec4216024173.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4216024173 -rdynamic 
+CMakeFiles/cmTryCompileExec4216024173.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_filelengthi64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec4216024173.dir/build.make:88: recipe for target 'cmTryCompileExec4216024173' failed
+make[1]: *** [cmTryCompileExec4216024173] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4216024173/fast' failed
+make: *** [cmTryCompileExec4216024173/fast] Error 2
+
+
+Determining if the function filelength exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec790117409/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec790117409.dir/build.make CMakeFiles/cmTryCompileExec790117409.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec790117409.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=filelength   -o CMakeFiles/cmTryCompileExec790117409.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec790117409
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec790117409.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=filelength    CMakeFiles/cmTryCompileExec790117409.dir/CheckFunctionExists.c.o  -o cmTryCompileExec790117409 -rdynamic 
+CMakeFiles/cmTryCompileExec790117409.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `filelength'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec790117409.dir/build.make:88: recipe for target 'cmTryCompileExec790117409' failed
+make[1]: *** [cmTryCompileExec790117409] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec790117409/fast' failed
+make: *** [cmTryCompileExec790117409/fast] Error 2
+
+
+Determining if the function _filelength exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2459347974/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2459347974.dir/build.make CMakeFiles/cmTryCompileExec2459347974.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2459347974.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_filelength   -o CMakeFiles/cmTryCompileExec2459347974.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2459347974
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2459347974.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_filelength    CMakeFiles/cmTryCompileExec2459347974.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2459347974 -rdynamic 
+CMakeFiles/cmTryCompileExec2459347974.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_filelength'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2459347974.dir/build.make:88: recipe for target 'cmTryCompileExec2459347974' failed
+make[1]: *** [cmTryCompileExec2459347974] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2459347974/fast' failed
+make: *** [cmTryCompileExec2459347974/fast] Error 2
+
+
+Determining if the function lseeki64 exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1843009610/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1843009610.dir/build.make CMakeFiles/cmTryCompileExec1843009610.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1843009610.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lseeki64   -o CMakeFiles/cmTryCompileExec1843009610.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1843009610
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1843009610.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lseeki64    CMakeFiles/cmTryCompileExec1843009610.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1843009610 -rdynamic 
+CMakeFiles/cmTryCompileExec1843009610.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `lseeki64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec1843009610.dir/build.make:88: recipe for target 'cmTryCompileExec1843009610' failed
+make[1]: *** [cmTryCompileExec1843009610] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1843009610/fast' failed
+make: *** [cmTryCompileExec1843009610/fast] Error 2
+
+
+Determining if the function _lseeki64 exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3152262439/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3152262439.dir/build.make CMakeFiles/cmTryCompileExec3152262439.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3152262439.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_lseeki64   -o CMakeFiles/cmTryCompileExec3152262439.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3152262439
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3152262439.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_lseeki64    CMakeFiles/cmTryCompileExec3152262439.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3152262439 -rdynamic 
+CMakeFiles/cmTryCompileExec3152262439.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_lseeki64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3152262439.dir/build.make:88: recipe for target 'cmTryCompileExec3152262439' failed
+make[1]: *** [cmTryCompileExec3152262439] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3152262439/fast' failed
+make: *** [cmTryCompileExec3152262439/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test _CL_HAVE_OPTION_STATI64 failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4254123269/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4254123269.dir/build.make CMakeFiles/cmTryCompileExec4254123269.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4254123269.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_OPTION_STATI64   -o CMakeFiles/cmTryCompileExec4254123269.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx:7:37: error: aggregate ‘main()::stati64 x’ has incomplete type and cannot be defined
+                      struct stati64 x; 
+                                     ^
+CMakeFiles/cmTryCompileExec4254123269.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4254123269.dir/src.cxx.o' failed
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4254123269/fast' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec4254123269.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec4254123269/fast] Error 2
+
+Source file was:
+
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+            	    int main(){
+            	        struct stati64 x; 
+            	    }
+Performing C++ SOURCE FILE Test _CL_HAVE_OPTION__STATI64 failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1852969831/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1852969831.dir/build.make CMakeFiles/cmTryCompileExec1852969831.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1852969831.dir/src.cxx.o
+/usr/bin/c++    -fPIC -ansi -D_CL_HAVE_OPTION__STATI64   -o CMakeFiles/cmTryCompileExec1852969831.dir/src.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/src.cxx:7:38: error: aggregate ‘main()::_stati64 x’ has incomplete type and cannot be defined
+                      struct _stati64 x; 
+                                      ^
+CMakeFiles/cmTryCompileExec1852969831.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1852969831.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1852969831.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1852969831/fast' failed
+make: *** [cmTryCompileExec1852969831/fast] Error 2
+
+Source file was:
+
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+            	    int main(){
+            	        struct _stati64 x; 
+            	    }
+Determining if the function telli64 exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3534510418/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3534510418.dir/build.make CMakeFiles/cmTryCompileExec3534510418.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3534510418.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=telli64   -o CMakeFiles/cmTryCompileExec3534510418.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3534510418
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3534510418.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=telli64    CMakeFiles/cmTryCompileExec3534510418.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3534510418 -rdynamic 
+CMakeFiles/cmTryCompileExec3534510418.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `telli64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3534510418.dir/build.make:88: recipe for target 'cmTryCompileExec3534510418' failed
+make[1]: *** [cmTryCompileExec3534510418] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3534510418/fast' failed
+make: *** [cmTryCompileExec3534510418/fast] Error 2
+
+
+Determining if the function _telli64 exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3004460345/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3004460345.dir/build.make CMakeFiles/cmTryCompileExec3004460345.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3004460345.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_telli64   -o CMakeFiles/cmTryCompileExec3004460345.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3004460345
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3004460345.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_telli64    CMakeFiles/cmTryCompileExec3004460345.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3004460345 -rdynamic 
+CMakeFiles/cmTryCompileExec3004460345.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_telli64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3004460345.dir/build.make:88: recipe for target 'cmTryCompileExec3004460345' failed
+make[1]: *** [cmTryCompileExec3004460345] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3004460345/fast' failed
+make: *** [cmTryCompileExec3004460345/fast] Error 2
+
+
+Determining if the function tell64 exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec545823781/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec545823781.dir/build.make CMakeFiles/cmTryCompileExec545823781.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec545823781.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tell64   -o CMakeFiles/cmTryCompileExec545823781.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec545823781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec545823781.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tell64    CMakeFiles/cmTryCompileExec545823781.dir/CheckFunctionExists.c.o  -o cmTryCompileExec545823781 -rdynamic 
+CMakeFiles/cmTryCompileExec545823781.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `tell64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec545823781.dir/build.make:88: recipe for target 'cmTryCompileExec545823781' failed
+make[1]: *** [cmTryCompileExec545823781] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec545823781/fast' failed
+make: *** [cmTryCompileExec545823781/fast] Error 2
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1997205369/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1997205369.dir/build.make CMakeFiles/cmTryCompileExec1997205369.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1997205369.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tell   -o CMakeFiles/cmTryCompileExec1997205369.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1997205369
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1997205369.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tell    CMakeFiles/cmTryCompileExec1997205369.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1997205369 -rdynamic 
+CMakeFiles/cmTryCompileExec1997205369.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `tell'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec1997205369.dir/build.make:88: recipe for target 'cmTryCompileExec1997205369' failed
+make[1]: *** [cmTryCompileExec1997205369] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1997205369/fast' failed
+make: *** [cmTryCompileExec1997205369/fast] Error 2
+
+
+Determining if the function _tell exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec690566814/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec690566814.dir/build.make CMakeFiles/cmTryCompileExec690566814.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec690566814.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_tell   -o CMakeFiles/cmTryCompileExec690566814.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec690566814
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec690566814.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_tell    CMakeFiles/cmTryCompileExec690566814.dir/CheckFunctionExists.c.o  -o cmTryCompileExec690566814 -rdynamic 
+CMakeFiles/cmTryCompileExec690566814.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_tell'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec690566814.dir/build.make:88: recipe for target 'cmTryCompileExec690566814' failed
+make[1]: *** [cmTryCompileExec690566814] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec690566814/fast' failed
+make: *** [cmTryCompileExec690566814/fast] Error 2
+
+
+Determining if the stdcall function _close((int)0) exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2002585348/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2002585348.dir/build.make CMakeFiles/cmTryCompileExec2002585348.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2002585348.dir/CheckStdCallFunctionExists.cpp.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2002585348.dir/CheckStdCallFunctionExists.cpp.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp: In function ‘int main(int, char**)’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp:12:16: error: ‘_close’ was not declared in this scope
+   _close((int)0);
+                ^
+CMakeFiles/cmTryCompileExec2002585348.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2002585348.dir/CheckStdCallFunctionExists.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2002585348.dir/CheckStdCallFunctionExists.cpp.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2002585348/fast' failed
+make: *** [cmTryCompileExec2002585348/fast] Error 2
+
+CheckStdCallFunctionExists.cpp:
+#include "unistd.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _close((int)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _read((int)0, (void*)0, (unsigned int)0) exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec258718310/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec258718310.dir/build.make CMakeFiles/cmTryCompileExec258718310.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec258718310.dir/CheckStdCallFunctionExists.cpp.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec258718310.dir/CheckStdCallFunctionExists.cpp.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp: In function ‘int main(int, char**)’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp:12:42: error: ‘_read’ was not declared in this scope
+   _read((int)0, (void*)0, (unsigned int)0);
+                                          ^
+CMakeFiles/cmTryCompileExec258718310.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec258718310.dir/CheckStdCallFunctionExists.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec258718310.dir/CheckStdCallFunctionExists.cpp.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec258718310/fast' failed
+make: *** [cmTryCompileExec258718310/fast] Error 2
+
+CheckStdCallFunctionExists.cpp:
+#include "unistd.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _read((int)0, (void*)0, (unsigned int)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _open(0,0,0) exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3182714449/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3182714449.dir/build.make CMakeFiles/cmTryCompileExec3182714449.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3182714449.dir/CheckStdCallFunctionExists.cpp.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec3182714449.dir/CheckStdCallFunctionExists.cpp.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp: In function ‘int main(int, char**)’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp:12:14: error: ‘_open’ was not declared in this scope
+   _open(0,0,0);
+              ^
+CMakeFiles/cmTryCompileExec3182714449.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3182714449.dir/CheckStdCallFunctionExists.cpp.o' failed
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3182714449.dir/CheckStdCallFunctionExists.cpp.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3182714449/fast' failed
+make: *** [cmTryCompileExec3182714449/fast] Error 2
+
+CheckStdCallFunctionExists.cpp:
+#include "unistd.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _open(0,0,0);
+  return 0;
+}
+
+
+Determining if the stdcall function _write((int)0, (const void*)0, (unsigned int)0) exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2880575276/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2880575276.dir/build.make CMakeFiles/cmTryCompileExec2880575276.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2880575276.dir/CheckStdCallFunctionExists.cpp.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec2880575276.dir/CheckStdCallFunctionExists.cpp.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp: In function ‘int main(int, char**)’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp:12:49: error: ‘_write’ was not declared in this scope
+   _write((int)0, (const void*)0, (unsigned int)0);
+                                                 ^
+CMakeFiles/cmTryCompileExec2880575276.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2880575276.dir/CheckStdCallFunctionExists.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2880575276.dir/CheckStdCallFunctionExists.cpp.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2880575276/fast' failed
+make: *** [cmTryCompileExec2880575276/fast] Error 2
+
+CheckStdCallFunctionExists.cpp:
+#include "unistd.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _write((int)0, (const void*)0, (unsigned int)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _unlink((const char*)0) exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1377792287/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1377792287.dir/build.make CMakeFiles/cmTryCompileExec1377792287.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1377792287.dir/CheckStdCallFunctionExists.cpp.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec1377792287.dir/CheckStdCallFunctionExists.cpp.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp: In function ‘int main(int, char**)’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp:12:25: error: ‘_unlink’ was not declared in this scope
+   _unlink((const char*)0);
+                         ^
+CMakeFiles/cmTryCompileExec1377792287.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1377792287.dir/CheckStdCallFunctionExists.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1377792287.dir/CheckStdCallFunctionExists.cpp.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1377792287/fast' failed
+make: *** [cmTryCompileExec1377792287/fast] Error 2
+
+CheckStdCallFunctionExists.cpp:
+#include "unistd.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _unlink((const char*)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _ftime(0) exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec497852770/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec497852770.dir/build.make CMakeFiles/cmTryCompileExec497852770.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec497852770.dir/CheckStdCallFunctionExists.cpp.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec497852770.dir/CheckStdCallFunctionExists.cpp.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp: In function ‘int main(int, char**)’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp:12:11: error: ‘_ftime’ was not declared in this scope
+   _ftime(0);
+           ^
+CMakeFiles/cmTryCompileExec497852770.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec497852770.dir/CheckStdCallFunctionExists.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec497852770.dir/CheckStdCallFunctionExists.cpp.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec497852770/fast' failed
+make: *** [cmTryCompileExec497852770/fast] Error 2
+
+CheckStdCallFunctionExists.cpp:
+#include "unistd.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _ftime(0);
+  return 0;
+}
+
+
+Determining if the stdcall function _mkdir((const char*)0) exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec176422479/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec176422479.dir/build.make CMakeFiles/cmTryCompileExec176422479.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec176422479.dir/CheckStdCallFunctionExists.cpp.o
+/usr/bin/c++    -fPIC -ansi    -o CMakeFiles/cmTryCompileExec176422479.dir/CheckStdCallFunctionExists.cpp.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp: In function ‘int main(int, char**)’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckStdCallFunctionExists.cpp:12:24: error: ‘_mkdir’ was not declared in this scope
+   _mkdir((const char*)0);
+                        ^
+CMakeFiles/cmTryCompileExec176422479.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec176422479.dir/CheckStdCallFunctionExists.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec176422479.dir/CheckStdCallFunctionExists.cpp.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec176422479/fast' failed
+make: *** [cmTryCompileExec176422479/fast] Error 2
+
+CheckStdCallFunctionExists.cpp:
+#include "unistd.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _mkdir((const char*)0);
+  return 0;
+}
+
+
+Determining if the function snwprintf exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3208568417/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3208568417.dir/build.make CMakeFiles/cmTryCompileExec3208568417.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3208568417.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snwprintf   -o CMakeFiles/cmTryCompileExec3208568417.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3208568417
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3208568417.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snwprintf    CMakeFiles/cmTryCompileExec3208568417.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3208568417 -rdynamic 
+CMakeFiles/cmTryCompileExec3208568417.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `snwprintf'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3208568417.dir/build.make:88: recipe for target 'cmTryCompileExec3208568417' failed
+make[1]: *** [cmTryCompileExec3208568417] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3208568417/fast' failed
+make: *** [cmTryCompileExec3208568417/fast] Error 2
+
+
+Determining if the function _snwprintf exists failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2014380810/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2014380810.dir/build.make CMakeFiles/cmTryCompileExec2014380810.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2014380810.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_snwprintf   -o CMakeFiles/cmTryCompileExec2014380810.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2014380810
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2014380810.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_snwprintf    CMakeFiles/cmTryCompileExec2014380810.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2014380810 -rdynamic 
+CMakeFiles/cmTryCompileExec2014380810.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_snwprintf'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2014380810.dir/build.make:88: recipe for target 'cmTryCompileExec2014380810' failed
+make[1]: *** [cmTryCompileExec2014380810] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2014380810/fast' failed
+make: *** [cmTryCompileExec2014380810/fast] Error 2
+
+
+Determining if the _O_RANDOM exist failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2956010914/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2956010914.dir/build.make CMakeFiles/cmTryCompileExec2956010914.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2956010914.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2956010914.dir/CheckSymbolExists.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: error: ‘_O_RANDOM’ undeclared (first use in this function)
+   return ((int*)(&_O_RANDOM))[argc];
+                   ^
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTryCompileExec2956010914.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2956010914.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2956010914.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2956010914/fast' failed
+make: *** [cmTryCompileExec2956010914/fast] Error 2
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _O_RANDOM
+  return ((int*)(&_O_RANDOM))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the O_RANDOM exist failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4232466812/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4232466812.dir/build.make CMakeFiles/cmTryCompileExec4232466812.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4232466812.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4232466812.dir/CheckSymbolExists.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: error: ‘O_RANDOM’ undeclared (first use in this function)
+   return ((int*)(&O_RANDOM))[argc];
+                   ^
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTryCompileExec4232466812.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4232466812.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec4232466812.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4232466812/fast' failed
+make: *** [cmTryCompileExec4232466812/fast] Error 2
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_RANDOM
+  return ((int*)(&O_RANDOM))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _O_BINARY exist failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3668561365/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3668561365.dir/build.make CMakeFiles/cmTryCompileExec3668561365.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3668561365.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3668561365.dir/CheckSymbolExists.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: error: ‘_O_BINARY’ undeclared (first use in this function)
+   return ((int*)(&_O_BINARY))[argc];
+                   ^
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTryCompileExec3668561365.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3668561365.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3668561365.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3668561365/fast' failed
+make: *** [cmTryCompileExec3668561365/fast] Error 2
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _O_BINARY
+  return ((int*)(&_O_BINARY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the O_BINARY exist failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2539160713/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2539160713.dir/build.make CMakeFiles/cmTryCompileExec2539160713.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2539160713.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2539160713.dir/CheckSymbolExists.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: error: ‘O_BINARY’ undeclared (first use in this function)
+   return ((int*)(&O_BINARY))[argc];
+                   ^
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTryCompileExec2539160713.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2539160713.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2539160713.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2539160713/fast' failed
+make: *** [cmTryCompileExec2539160713/fast] Error 2
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_BINARY
+  return ((int*)(&O_BINARY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _S_IREAD exist failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4072609857/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4072609857.dir/build.make CMakeFiles/cmTryCompileExec4072609857.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4072609857.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4072609857.dir/CheckSymbolExists.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: error: ‘_S_IREAD’ undeclared (first use in this function)
+   return ((int*)(&_S_IREAD))[argc];
+                   ^
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTryCompileExec4072609857.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4072609857.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec4072609857.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4072609857/fast' failed
+make: *** [cmTryCompileExec4072609857/fast] Error 2
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _S_IREAD
+  return ((int*)(&_S_IREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _S_IWRITE exist failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2201918949/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2201918949.dir/build.make CMakeFiles/cmTryCompileExec2201918949.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2201918949.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2201918949.dir/CheckSymbolExists.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: error: ‘_S_IWRITE’ undeclared (first use in this function)
+   return ((int*)(&_S_IWRITE))[argc];
+                   ^
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTryCompileExec2201918949.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2201918949.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2201918949.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2201918949/fast' failed
+make: *** [cmTryCompileExec2201918949/fast] Error 2
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _S_IWRITE
+  return ((int*)(&_S_IWRITE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of TCHAR failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3955046641/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3955046641.dir/build.make CMakeFiles/cmTryCompileExec3955046641.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3955046641.dir/_CL_HAVE_TYPE_TCHAR.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3955046641.dir/_CL_HAVE_TYPE_TCHAR.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_TCHAR.c
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_TCHAR.c:17:22: error: ‘TCHAR’ undeclared here (not in a function)
+ #define SIZE (sizeof(TCHAR))
+                      ^
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_TCHAR.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec3955046641.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3955046641.dir/_CL_HAVE_TYPE_TCHAR.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3955046641.dir/_CL_HAVE_TYPE_TCHAR.c.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3955046641/fast' failed
+make: *** [cmTryCompileExec3955046641/fast] Error 2
+
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_TCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(TCHAR))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the _T exist failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2924487845/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2924487845.dir/build.make CMakeFiles/cmTryCompileExec2924487845.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2924487845.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2924487845.dir/CheckSymbolExists.c.o   -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: error: ‘_T’ undeclared (first use in this function)
+   return ((int*)(&_T))[argc];
+                   ^
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTryCompileExec2924487845.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2924487845.dir/CheckSymbolExists.c.o' failed
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2924487845.dir/CheckSymbolExists.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2924487845/fast' failed
+make: *** [cmTryCompileExec2924487845/fast] Error 2
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _T
+  return ((int*)(&_T))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4024133734/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4024133734.dir/build.make CMakeFiles/cmTryCompileExec4024133734.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4024133734.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec4024133734.dir/CheckSymbolExists.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec4024133734.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4024133734.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec4024133734.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4024133734/fast' failed
+make: *** [cmTryCompileExec4024133734/fast] Error 2
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2004025927/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2004025927.dir/build.make CMakeFiles/cmTryCompileExec2004025927.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2004025927.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2004025927.dir/CheckSymbolExists.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec2004025927.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2004025927.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2004025927.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2004025927/fast' failed
+make: *** [cmTryCompileExec2004025927/fast] Error 2
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3638480803/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3638480803.dir/build.make CMakeFiles/cmTryCompileExec3638480803.dir/build
+make[1]: Entering directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3638480803.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3638480803.dir/CheckSymbolExists.cxx.o -c /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec3638480803.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3638480803.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3638480803.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3638480803/fast' failed
+make: *** [cmTryCompileExec3638480803/fast] Error 2
+
+File /home/turbineyan/Downloads/WizQTClient-2.1.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
